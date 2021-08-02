@@ -1,20 +1,22 @@
 package _0802.abstractclass.template;
 
 public abstract class Car { 
-	public abstract void drive(); // Ãß»ó ¸Ş¼­µå
-	public abstract void stop(); // Ãß»ó ¸Ş¼­µå
+	public abstract void drive(); // ì¶”ìƒ ë©”ì„œë“œ
+	public abstract void stop(); // ì¶”ìƒ ë©”ì„œë“œ
 	
-	public void startCar() { // ÀÏ¹İ ¸Ş¼­µå
-		System.out.println("½Ãµ¿À» ÄÕ´Ï´Ù.");
+	
+	public void startCar() { // ì¼ë°˜ ë©”ì„œë“œ
+		System.out.println("ì‹œë™ì„ ì¼­ë‹ˆë‹¤.");
 	}
 	
-	public void turnOff() { // ÀÏ¹İ ¸Ş¼­µå
-		System.out.println("½Ãµ¿À» ²ü´Ï´Ù.");
+	public void turnOff() { // ì¼ë°˜ ë©”ì„œë“œ
+		System.out.println("ì‹œë™ì„ ë•ë‹ˆë‹¤.");
 	}
 	
-	final public void run() { // ÅÛÇÃ¸´ ¸Ş¼­µå
+	final public void run() { // í…œí”Œë¦¿ ë©”ì„œë“œ
 		startCar();
 		drive();
+		wiper();
 		stop();
 		turnOff();
 	}
