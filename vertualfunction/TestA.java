@@ -1,9 +1,9 @@
-package _0724.vertualfunction;
-// °¡»ó ¸Ş¼­µå È£ÃâÇÏ±â
+package _0724.vrtualfunction;
+// ê°€ìƒ ë©”ì„œë“œ í˜¸ì¶œí•˜ê¸°
 public class TestA {
 	int num;
 	void aaa() {
-		System.out.println("aaa() Ãâ·Â");
+		System.out.println("aaa() ì¶œë ¥");
 	}
 	public static void main(String[] args) {
 		TestA a1 = new TestA();
@@ -17,6 +17,6 @@ public class TestA {
 }
 
 /* 
- * aaa() Ãâ·Â
- * aaa() Ãâ·Â
+ * aaa() ì¶œë ¥
+ * aaa() ì¶œë ¥
  */
