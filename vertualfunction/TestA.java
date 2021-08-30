@@ -1,4 +1,4 @@
-package _0724.vrtualfunction;
+package _0724.virtualfunction;
 // 가상 메서드 호출하기
 public class TestA {
 	int num;
