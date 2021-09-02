@@ -27,7 +27,7 @@ public interface Calc {
 		return total;
 	}
 	
-	private void myMethod() {
+	private void myMethod() { // 인터페이스에 private 메서드 선언하는 것은 자바 9버전부터 가능함
 		System.out.println("private 메서드입니다."); // private 메서드
 	}
 	
